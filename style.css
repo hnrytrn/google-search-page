@@ -10,6 +10,26 @@
 	border-bottom: 1px solid #E5E5E5;
 }
 
+#header div {
+	height: 30px;
+	width: 75px;
+	position: absolute;
+	right: 30px;
+	top: 15px;
+	background-color: #3C7ADF;
+	border-radius: 3px;
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+}
+
+#header div p {
+	position: relative;
+	top: -6px;
+}
+
 #search {
 	position: absolute;
 	height: 35px;
@@ -55,6 +75,11 @@
 	padding: 9px 15px 9px 15px;
 }
 
+#search-options img {
+	position: absolute;
+	right: 30px;
+	top: 15px;
+}
 #result {
 	position: relative;
 	color: #808080;
@@ -78,6 +103,7 @@
 	color: #1A51BD;
 	font-family: Arial;
 	font-size: 16px;
+	font-weight: bold;
 }
 
 .URL {
@@ -85,6 +111,7 @@
 	font-family: Arial;
 	font-size: 13px;
 	margin-top: 0;
+	font-weight: bold;
 }
 
 .description {
@@ -94,7 +121,7 @@
 }
 
 #page-selector {
-	height: 120px;
+	height: 100px;
 	width: 600px;
 	position: relative;
 	bottom: -80px;
@@ -107,5 +134,32 @@
 #page-selector p {
 	text-align: center;
 	position: relative;
-	bottom: 20;
+	bottom: 10px;
+}
+
+#footer {
+	height: 85px;
+	width: 100%;
+	background-color: #F2F2F2;
+	position: relative;
+	bottom: -75px;
+	padding-top: 20px;
+	border-top: 1px solid #E5E5E5;
+}
+
+#footer p {
+	font-family: Arial;
+	font-size: 13px;
+	color: #8C8C8C;
+	position: relative;
+	left: 120px;
+}
+
+#location {
+	display: block;
+}
+
+.footer-options {
+	display: inline-block;
+	padding-right: 30px;
 }
