@@ -1,0 +1,65 @@
+#header {
+	height: 60px;
+	width: 100%;
+	background: #F1F1F1 url(http://patrickcoombe.com/wp-content/uploads/2015/09/new-google-logo-2015.png) no-repeat;
+	background-size: 100px 42px;
+	position: absolute;
+	top: 0;	
+	left: 0;
+	background-position: 15px 10px, center;
+	border-bottom: 1px solid #E5E5E5;
+}
+
+#search {
+	position: absolute;
+	height: 35px;
+	width: 589px;
+	left: 126px;
+	top: 9px;
+	font-size: 16px;
+	font-family: Arial;
+}
+
+#mic {
+	position: absolute;
+	height: 23px;
+	width: 15px;
+	left: 686px;
+	top: 17px;
+}
+
+#search-button {
+	position: absolute;
+	height: 41px;
+	width: 41px;
+	left: 720px;
+	top: 9px;
+}
+
+#search-options {
+	height: 60px;
+	width: 100%;
+	position: absolute;
+	top: 59px;
+	left: 0;
+	border-bottom: 1px solid #E5E5E5;
+}
+
+.option {
+	position: relative;
+	color: #7A7A7A;
+	font-size: 14px;
+	font-family: Arial;
+	display: inline-block;
+	left: 115px;
+	padding: 9px 15px 9px 15px;
+}
+
+#result {
+	position: relative;
+	color: #808080;
+	font-size: 13px;
+	font-family: Arial;
+	left: 122px;
+	top: 120px;
+}
