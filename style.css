@@ -22,10 +22,10 @@
 
 #mic {
 	position: absolute;
-	height: 23px;
-	width: 15px;
+	height: 20px;
+	width: 13px;
 	left: 686px;
-	top: 17px;
+	top: 18px;
 }
 
 #search-button {
@@ -60,6 +60,52 @@
 	color: #808080;
 	font-size: 13px;
 	font-family: Arial;
-	left: 122px;
-	top: 120px;
+	left: 120px;
+	top: 125px;
+}
+
+.search-results {
+	position: relative;
+	display: block;
+	height: 70px;
+	width: 600px;
+	left: 120px;
+	top: 135px;
+	padding: 15px 0 15px 0;
+}
+
+.title {
+	color: #1A51BD;
+	font-family: Arial;
+	font-size: 16px;
+}
+
+.URL {
+	color: #476621;
+	font-family: Arial;
+	font-size: 13px;
+	margin-top: 0;
+}
+
+.description {
+	color: #545454;
+	font-family: Arial;
+	font-size: 13px;
+}
+
+#page-selector {
+	height: 120px;
+	width: 600px;
+	position: relative;
+	bottom: -80px;
+	left: 120px;
+	padding-top: 20px; 
+	margin-top: 50px;
+	border-top: solid 1px #E5E5E5;
+}
+
+#page-selector p {
+	text-align: center;
+	position: relative;
+	bottom: 20;
 }
